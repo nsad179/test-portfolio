@@ -1,0 +1,117 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "Neerajkumar1792000@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:Neerajkumar1792000@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 8851560018",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+91 8851560018"
+      },
+      {
+        "type": "website",
+        "label": "www.neerajkumarseo.com",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://www.neerajkumarseo.com"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "dribbble",
+        "icon": "/images/icon/dribble-icon.svg",
+        "link": "https://dribbble.com"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://linkedin.com/in/neeraj179"
+      },
+      {
+        "platform": "facebook",
+        "icon": "/images/icon/facebook-icon.svg",
+        "link": "https://facebook.com/neerajkumar1792000"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "New Rainbow Public School - 2017",
+        "description": "Completed high school under the CBSE board with a strong academic foundation and active participation in school activities."
+      },
+      {
+        "title": "Kendriya Vidyalaya No.1 AFS Hindon - 2019",
+        "description": "Completed 12th (Commerce with Mathematics) under the CBSE board, developing strong analytical and business fundamentals."
+      },
+      {
+        "title": "Banaras Hindu University - 2022",
+        "description": "Completed B.Com (Hons.) in Marketing with a 7.8 CGPA, gaining expertise in business strategy, consumer behavior, and data-driven marketing."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ahrefs",
+        "icon": "/images/home/education-skill/ahrefs SEO Tool.svg",
+        "rating": 5
+      },
+      {
+        "name": "Google Analytics 4",
+        "icon": "/images/home/education-skill/google-analytics-4.svg",
+        "rating": 4
+      },
+      {
+        "name": "Google Tag Manager",
+        "icon": "/images/home/education-skill/google-tag-manager-svgrepo-com.svg",
+        "rating": 4
+      },
+      {
+        "name": "Google Ads",
+        "icon": "/images/home/education-skill/google-ads-2.svg",
+        "rating": 4
+      },
+      {
+        "name": "Screaming Frog",
+        "icon": "/images/home/education-skill/screaming-frog-1.svg",
+        "rating": 5
+      },
+      {
+        "name": "Looker Studio",
+        "icon": "/images/home/education-skill/looker-svgrepo-com.svg",
+        "rating": 5
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "Medium",
+        "href": "https://medium.com/@neerajkumar1792000"
+      },
+      {
+        "title": "Facebook",
+        "href": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/neeraj179/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "Neerajkumar1792000@gmail.com",
+        "link": "mailto:Neerajkumar1792000@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 8851560018",
+        "link": "tel:+91 8851560018"
+      }
+    ]
+  }
+}
