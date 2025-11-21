@@ -39,19 +39,16 @@ const Contact = () => {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
 
-    fetch("https://formsubmit.co/ajax/bhainirav772@gmail.com", {
+    fetch("/", {
       method: "POST",
-      headers: { "Content-type": "application/json" },
-      body: JSON.stringify({
-        name: formData.name,
-        number: formData.number,
-        email: formData.email,
-        message: formData.message,
-      }),
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({
+        "form-name": "contact",
+        ...formData,
+      } as any).toString(),
     })
-      .then((response) => response.json())
-      .then((data) => {
-        setSubmitted(data.success);
+      .then(() => {
+        setSubmitted(true);
         reset();
       })
       .catch((error) => {
@@ -75,7 +72,13 @@ const Contact = () => {
             <p className="text-xl text-orange-500">( 05 )</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <form onSubmit={handleSubmit}>
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              onSubmit={handleSubmit}
+            >
+              <input type="hidden" name="form-name" value="contact" />
               <div className="flex flex-col gap-7 sm:gap-12">
                 <div className="grid grid-cols-2 gap-8">
                   <div>
