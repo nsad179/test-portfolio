@@ -3,11 +3,11 @@ import { CheckCircleIcon } from '@heroicons/react/24/solid';
 
 const BookingSection = () => {
     return (
-        <section className="w-full py-20 bg-gray-50" id="book-time">
+        <section className="w-full py-16 bg-gray-50" id="book-time">
             <div className="container mx-auto px-6 lg:px-12">
 
                 {/* Section Number & Title - Matching your site's style */}
-                <div className="mb-12">
+                <div className="mb-8">
                     <span className="text-[#FF4400] font-bold tracking-widest uppercase text-sm">
                         ( 05 )
                     </span>
