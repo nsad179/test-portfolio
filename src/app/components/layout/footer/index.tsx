@@ -13,7 +13,16 @@ const Footer = () => {
             <div className="flex-grow h-px bg-black" />
           </div>
           <p className="text-secondary">
-            Designed by{" "}
+            Vibe coded with ❤️ with{" "}
+            <a
+              href="https://www.linkedin.com/in/neeraj179/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              Neeraj Kumar
+            </a>{" "}
+            • Designed by{" "}
             <a
               href="https://getnextjstemplates.com/"
               target="_blank"
@@ -21,15 +30,6 @@ const Footer = () => {
               className="text-primary hover:underline"
             >
               getnextjstemplates
-            </a>{" "}
-            • Distributed by{" "}
-            <a
-              href="https://themewagon.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              ThemeWagon
             </a>
           </p>
         </div>
