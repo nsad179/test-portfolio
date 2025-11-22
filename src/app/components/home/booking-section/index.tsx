@@ -8,9 +8,7 @@ const BookingSection = () => {
 
                 {/* Section Number & Title - Matching your site's style */}
                 <div className="mb-2">
-                    <span className="text-[#FF4400] font-bold tracking-widest uppercase text-sm">
-                        ( 05 )
-                    </span>
+
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2">
                         Book a Strategy Session
                     </h2>
