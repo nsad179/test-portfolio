@@ -3,13 +3,13 @@ import ContactBar from "./components/home/hero-section/contact-bar"
 import dynamic from "next/dynamic"
 import fs from "fs"
 import path from "path"
+import LazyContact from "./components/home/contact/lazy"
+import LazyBookingSection from "./components/home/booking-section/lazy"
 
 const AboutMe = dynamic(() => import("./components/home/about-me"))
-const Contact = dynamic(() => import("./components/home/contact"), { ssr: false })
 const EducationSkills = dynamic(() => import("./components/home/education-skills"))
 const ExperienceSec = dynamic(() => import("./components/home/experience-sec"))
 const LatestWork = dynamic(() => import("./components/home/latest-work"))
-const BookingSection = dynamic(() => import("./components/home/booking-section"), { ssr: false })
 
 async function getData() {
   const workFilePath = path.join(process.cwd(), "public/data/work-data.json");
@@ -37,9 +37,9 @@ const page = async () => {
         <AboutMe />
         <ExperienceSec />
         <EducationSkills educationData={educationData} />
-        <BookingSection />
+        <LazyBookingSection />
         <LatestWork workData={workData} />
-        <Contact />
+        <LazyContact />
       </main>
     </>
   )
