@@ -29,18 +29,17 @@
       "result": "Improved crawl efficiency and search rankings for high-value commercial keywords, driving consistent organic acquisition."
     },
     {
-      "slug": "international-seo-expansion",
-      "title": "International SEO & Expansion",
-      "client": "OpenDG Clients",
-      "role": "Digital Marketing Executive",
-      "image": "/images/work/work-img-3.jpg",
-      "challenge": "Clients needed to expand their organic presence beyond local markets to reach international audiences.",
+      "slug": "seo-experiment-ai-content-performance",
+      "title": "SEO Experiment: AI Content Performance",
+      "client": "Medium (Personal Project)",
+      "role": "SEO Strategist",
+      "image": "/images/work/ai-experiment.jpg",
+      "challenge": "To test the ranking potential of AI-generated text, I conducted a live SEO experiment using my Medium publication.",
       "solution": [
-        "Global Architecture: Implemented International SEO strategies, optimizing subdirectories and subfolders for specific geo-targeting.",
-        "Off-Page Strategy: Executed a robust link-building campaign involving guest blogging and infographic submissions to build domain authority.",
-        "Performance Tracking: Monitored cross-border KPIs (bounce rates, queries) to refine targeting daily."
+        "Content Strategy: Leveraged AI tools for high-volume content creation.",
+        "Optimization: Refined content with semantic SEO and structured data strategies to align with search intent."
       ],
-      "result": "Successfully established organic visibility in target international regions and increased qualified lead generation."
+      "result": "Scaled to 4.4K monthly visitors with a traffic value of $1.8K, proving that AI content—when optimized for search intent—can drive significant organic visibility."
     },
     {
       "slug": "architecture-dev-side-seo",
