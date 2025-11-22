@@ -22,19 +22,19 @@
     ],
     "socialItems": [
       {
-        "platform": "dribbble",
-        "icon": "/images/icon/dribble-icon.svg",
-        "link": "https://dribbble.com"
-      },
-      {
         "platform": "linkedin",
         "icon": "/images/icon/linkedin-icon.svg",
-        "link": "https://linkedin.com/in/neeraj179"
+        "link": "https://www.linkedin.com/in/neeraj179"
       },
       {
-        "platform": "facebook",
-        "icon": "/images/icon/facebook-icon.svg",
-        "link": "https://facebook.com/neerajkumar1792000"
+        "platform": "medium",
+        "icon": "/images/icon/medium-icon.svg",
+        "link": "https://medium.com/@neerajkumar1792000"
+      },
+      {
+        "platform": "crunchbase",
+        "icon": "/images/icon/crunchbase-icon.svg",
+        "link": "https://www.crunchbase.com/person/neeraj-kumar-e62a"
       }
     ]
   },
@@ -89,16 +89,16 @@
   "contactLinks": {
     "socialLinks": [
       {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/neeraj179"
+      },
+      {
         "title": "Medium",
         "href": "https://medium.com/@neerajkumar1792000"
       },
       {
-        "title": "Facebook",
-        "href": "/"
-      },
-      {
-        "title": "LinkedIn",
-        "href": "https://www.linkedin.com/in/neeraj179/"
+        "title": "Crunchbase",
+        "href": "https://www.crunchbase.com/person/neeraj-kumar-e62a"
       }
     ],
     "contactInfo": [
