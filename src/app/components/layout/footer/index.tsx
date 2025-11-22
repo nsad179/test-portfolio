@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="flex-grow h-px bg-black" />
           </div>
           <p className="text-secondary">
-            Vibe coded with ❤️ with{" "}
+            Vibe coded with ❤️ by{" "}
             <a
               href="https://www.linkedin.com/in/neeraj179/"
               target="_blank"
