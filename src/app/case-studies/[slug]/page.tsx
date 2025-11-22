@@ -27,8 +27,9 @@ async function getCaseStudy(slug: string) {
     return caseStudy;
 }
 
-export default async function CaseStudyPage({ params }: { params: { slug: string } }) {
-    const data = await getCaseStudy(params.slug);
+export default async function CaseStudyPage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const data = await getCaseStudy(slug);
 
     if (!data) {
         notFound();
