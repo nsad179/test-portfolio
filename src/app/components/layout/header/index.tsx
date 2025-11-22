@@ -19,7 +19,7 @@ const Header = () => {
                             href="/Neeraj_SEO_PPC_Expert.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
+                            className="btn-hover relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
                         >
                             <span className="relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300">
                                 Download PDF Resume
