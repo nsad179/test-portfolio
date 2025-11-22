@@ -32,6 +32,7 @@ const index = () => {
             width={685}
             height={650}
             priority
+            sizes="(max-width: 1024px) 100vw, 50vw"
             className="block lg:hidden"
           />
         </div>
@@ -42,6 +43,8 @@ const index = () => {
           alt="banner-img"
           width={685}
           height={650}
+          priority
+          sizes="50vw"
           className=" absolute right-0 top-0 z-1"
         />
       </div>
