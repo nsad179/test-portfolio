@@ -71,9 +71,7 @@ const CaseStudyDetail = ({ data }: { data: any }) => {
                                 Let's discuss how we can achieve similar results for your business.
                             </p>
                             <Link
-                                href="https://calendly.com/neerajkumar1792000/30min"
-                                target="_blank"
-                                rel="noopener noreferrer"
+                                href="/#book-time"
                                 className="w-full block text-center py-3 px-6 border border-primary rounded-full text-primary hover:text-white hover:bg-primary transition-all duration-300 font-medium"
                             >
                                 Book a Strategy Session
