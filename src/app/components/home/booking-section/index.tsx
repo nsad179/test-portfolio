@@ -8,7 +8,7 @@ const BookingSection = () => {
 
                 {/* Section Number & Title - Matching your site's style */}
                 <div className="mb-12">
-                    <span className="text-emerald-600 font-bold tracking-widest uppercase text-sm">
+                    <span className="text-[#FF4400] font-bold tracking-widest uppercase text-sm">
                         ( 05 )
                     </span>
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2">
@@ -38,27 +38,27 @@ const BookingSection = () => {
                                 "Zero Fluff, 100% Strategy"
                             ].map((item, index) => (
                                 <li key={index} className="flex items-center space-x-3">
-                                    <CheckCircleIcon className="h-6 w-6 text-emerald-500" />
+                                    <CheckCircleIcon className="h-6 w-6 text-[#FF4400]" />
                                     <span className="text-gray-700 font-medium">{item}</span>
                                 </li>
                             ))}
                         </ul>
 
                         {/* Optional: Testimonial Snippet */}
-                        <div className="mt-8 p-4 bg-white border-l-4 border-emerald-500 shadow-sm rounded-r-lg">
+                        <div className="mt-8 p-4 bg-white border-l-4 border-[#FF4400] shadow-sm rounded-r-lg">
                             <p className="italic text-gray-600">"Neeraj's strategy helped us scale from 2k to 15k traffic in record time."</p>
-                            <p className="text-sm font-bold text-gray-900 mt-2">- Previous Client</p>
+                            <p className="text-sm font-bold text-gray-900 mt-2">- Neuherbs</p>
                         </div>
                     </div>
 
                     {/* RIGHT COLUMN: The Calendar Embed */}
                     <div className="w-full lg:w-1/2">
-                        <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 min-h-[600px]">
+                        <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 h-[700px]">
                             {/* Replace the iframe src with your actual Calendly/Cal.com link */}
                             <iframe
                                 src="https://calendly.com/neerajkumar1792000/30min"
                                 width="100%"
-                                height="600"
+                                height="100%"
                                 frameBorder="0"
                                 title="Select a Date and Time"
                                 className="w-full h-full"
