@@ -56,7 +56,7 @@ const BookingSection = () => {
                         <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 min-h-[600px]">
                             {/* Replace the iframe src with your actual Calendly/Cal.com link */}
                             <iframe
-                                src="https://calendly.com/YOUR_LINK_HERE"
+                                src="https://calendly.com/neerajkumar1792000/30min"
                                 width="100%"
                                 height="600"
                                 frameBorder="0"
