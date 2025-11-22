@@ -7,7 +7,7 @@ const BookingSection = () => {
             <div className="container mx-auto px-6 lg:px-12">
 
                 {/* Section Number & Title - Matching your site's style */}
-                <div className="mb-8">
+                <div className="mb-2">
                     <span className="text-[#FF4400] font-bold tracking-widest uppercase text-sm">
                         ( 05 )
                     </span>

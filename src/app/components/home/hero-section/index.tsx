@@ -5,7 +5,7 @@ const index = () => {
   return (
     <section className="relative hero-section overflow-hidden pt-35 md:pt-40 pb-12 lg:pb-30 xl:pt-52">
       <div className="container">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 md:gap-12 items-center">
+        <div className="lg:flex grid grid-cols-1 sm:grid-cols-2 gap-7 md:gap-4 items-center">
           <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
             <div>
               <div className="flex items-center gap-8">
@@ -26,16 +26,23 @@ const index = () => {
               I build SEO and growth systems that drive qualified traffic, boost conversions, and deliver long-term impact. With 5+ years across SaaS, e-commerce, and product-led brands, I scale organic growth and optimize acquisition funnels.
             </p>
           </div>
-          <div className="flex justify-center lg:justify-end">
-            <Image
-              src={getImgPath("/images/home/banner/banner-img.png")}
-              alt="banner-img"
-              width={685}
-              height={650}
-              className="w-full h-auto max-w-[500px] lg:max-w-full"
-            />
-          </div>
+          <Image
+            src={getImgPath("/images/home/banner/banner-img.png")}
+            alt="banner-img"
+            width={685}
+            height={650}
+            className="block lg:hidden"
+          />
         </div>
+      </div>
+      <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
+        <Image
+          src={getImgPath("/images/home/banner/banner-img.png")}
+          alt="banner-img"
+          width={685}
+          height={650}
+          className=" absolute right-0 top-0 z-1"
+        />
       </div>
     </section>
   );
