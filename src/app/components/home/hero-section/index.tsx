@@ -31,6 +31,7 @@ const index = () => {
             alt="banner-img"
             width={685}
             height={650}
+            priority
             className="block lg:hidden"
           />
         </div>

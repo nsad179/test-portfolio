@@ -60,6 +60,7 @@ const BookingSection = () => {
                                 frameBorder="0"
                                 title="Select a Date and Time"
                                 className="w-full h-full"
+                                loading="lazy"
                             ></iframe>
                         </div>
                     </div>
