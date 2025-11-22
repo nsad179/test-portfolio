@@ -47,8 +47,7 @@ const LatestWork = () => {
                         className="rounded-lg w-full h-full object-cover"
                       />
                       <Link
-                        onClick={(e) => e.preventDefault()}
-                        href={"#!"}
+                        href={`/case-studies/${value.slug}`}
                         className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
                       >
                         <span className="flex justify-center items-center p-5 w-full">
@@ -82,12 +81,14 @@ const LatestWork = () => {
                         <Link href={`/case-studies/${value.slug}`}>
                           <h5>{value?.title}</h5>
                         </Link>
-                        <Image
-                          src={getImgPath("/images/icon/right-arrow-icon.svg")}
-                          alt="right-arrow-icon"
-                          width={30}
-                          height={30}
-                        />
+                        <Link href={`/case-studies/${value.slug}`}>
+                          <Image
+                            src={getImgPath("/images/icon/right-arrow-icon.svg")}
+                            alt="right-arrow-icon"
+                            width={30}
+                            height={30}
+                          />
+                        </Link>
                       </div>
                       <p>Client: {value?.client}</p>
                     </div>

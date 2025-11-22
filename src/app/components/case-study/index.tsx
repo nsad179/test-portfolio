@@ -7,7 +7,7 @@ const CaseStudyDetail = ({ data }: { data: any }) => {
     if (!data) return null;
 
     return (
-        <section className="py-16 md:py-24">
+        <section className="py-24 md:py-32">
             <div className="container">
                 {/* Header Section */}
                 <div className="flex flex-col gap-6 mb-12">
@@ -74,7 +74,7 @@ const CaseStudyDetail = ({ data }: { data: any }) => {
                                 href="https://calendly.com/neerajkumar1792000/30min"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="btn-hover w-full block text-center py-3 px-6 border border-primary rounded-full text-primary hover:text-white transition-all duration-300 font-medium"
+                                className="w-full block text-center py-3 px-6 border border-primary rounded-full text-primary hover:text-white hover:bg-primary transition-all duration-300 font-medium"
                             >
                                 Book a Strategy Session
                             </Link>
