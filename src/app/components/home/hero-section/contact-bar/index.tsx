@@ -66,7 +66,7 @@ const ContactBar = () => {
                     alt={value?.platform}
                     width={30}
                     height={30}
-                    className="hover:opacity-80"
+                    className="hover:opacity-80 grayscale brightness-0"
                   />
                 </Link>
               ))}

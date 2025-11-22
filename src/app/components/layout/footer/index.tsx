@@ -35,26 +35,6 @@ const Footer = () => {
             <div className="flex-grow h-px bg-black" />
           </div>
 
-          {/* Social Items */}
-          <div className="flex items-center justify-center gap-4 w-full">
-            {socialItems.map((value: any, index: number) => (
-              <Link
-                key={index}
-                href={value?.link || "#"}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  src={getImgPath(value?.icon)}
-                  alt={value?.platform}
-                  width={30}
-                  height={30}
-                  className="hover:opacity-80"
-                />
-              </Link>
-            ))}
-          </div>
-
           <div className="w-full text-center">
             <p className="text-secondary">
               Vibe coded with ❤️ by{" "}
