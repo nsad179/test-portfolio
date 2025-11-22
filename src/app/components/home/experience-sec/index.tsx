@@ -3,18 +3,11 @@ import React from 'react';
 const ExperienceSec = () => {
     const experiences = [
         {
-            year: "2020",
-            title: "Digital Marketing Executive",
-            company: "OpenDG Noida",
-            type: "Remote",
-            description: "Executed international SEO strategies, optimized site templates, and improved technical health. Managed link-building, monitored KPIs, and enhanced content structure to drive organic growth and support multi-client performance goals."
-        },
-        {
-            year: "2021",
-            title: "Digital Marketing Executive",
-            company: "Neuherbs",
-            type: "Fulltime",
-            description: "Scaled Organic SEO traffic from 2K to 15K/month using full-funnel content, CRO, and technical improvements. Managed PR links, paid ads, automation, and analytics while optimizing pages, funnels, and user journeys to drive leads and conversions."
+            year: "2025+",
+            title: "Senior SEO Executive",
+            company: "Taazaa",
+            type: "Hybrid",
+            description: "Improved organic visibility by optimizing site architecture, fixing technical issues, and aligning content with search intent. Led audits, cross-team implementation, and data-driven SEO strategies to boost rankings and site performance."
         },
         {
             year: "2022",
@@ -24,11 +17,18 @@ const ExperienceSec = () => {
             description: "Drove organic growth through technical audits, content optimization, and keyword strategy. Managed editorial workflows, improved crawlability, and delivered insights that shaped content, rankings, and acquisition performance across products."
         },
         {
-            year: "2025+",
-            title: "Senior SEO Executive",
-            company: "Taazaa",
-            type: "Hybrid",
-            description: "Improved organic visibility by optimizing site architecture, fixing technical issues, and aligning content with search intent. Led audits, cross-team implementation, and data-driven SEO strategies to boost rankings and site performance."
+            year: "2021",
+            title: "Digital Marketing Executive",
+            company: "Neuherbs",
+            type: "Fulltime",
+            description: "Scaled Organic SEO traffic from 2K to 15K/month using full-funnel content, CRO, and technical improvements. Managed PR links, paid ads, automation, and analytics while optimizing pages, funnels, and user journeys to drive leads and conversions."
+        },
+        {
+            year: "2020",
+            title: "Digital Marketing Executive",
+            company: "OpenDG Noida",
+            type: "Remote",
+            description: "Executed international SEO strategies, optimized site templates, and improved technical health. Managed link-building, monitored KPIs, and enhanced content structure to drive organic growth and support multi-client performance goals."
         }
     ];
 
@@ -55,9 +55,9 @@ const ExperienceSec = () => {
                                     )}
 
                                     <div className="no-print absolute left-0 top-0 transform -translate-x-1/2">
-                                        <div className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index === 1 ? 'border-primary' : 'border-black'
+                                        <div className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index === 0 ? 'border-primary' : 'border-black'
                                             }`}>
-                                            {index === 1 && (
+                                            {index === 0 && (
                                                 <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>
                                             )}
                                         </div>
