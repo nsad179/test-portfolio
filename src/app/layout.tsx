@@ -75,11 +75,13 @@ export default function RootLayout({
                   ],
                 },
                 {
-                  "@type": "Service",
+                  "@type": "Product",
                   name: "SEO & PPC Consulting Services",
                   description:
                     "Expert SEO auditing, PPC management, and growth strategy for SaaS and E-commerce.",
-                  provider: {
+                  image:
+                    "https://www.neerajkumarseo.com/images/home/banner/banner-img.png",
+                  brand: {
                     "@id": "https://www.neerajkumarseo.com/#person",
                   },
                   aggregateRating: {
