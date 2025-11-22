@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   alternates: {
-    canonical: "https://www.neerajkumarseo.com/",
+    canonical: "https://www.neerajkumarseo.com",
   },
 };
 
