@@ -1,40 +1,60 @@
 {
   "workData": [
     {
+      "slug": "b2c-ecommerce-hyper-growth",
+      "title": "B2C E-Commerce Hyper-Growth",
+      "client": "Neuherbs",
+      "role": "Digital Marketing Executive",
       "image": "/images/work/work-img-1.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "challenge": "The brand had a low organic footprint with traffic hovering around 2,000/month, limiting direct sales and brand visibility.",
+      "solution": [
+        "Content Strategy: Developed a Full-Funnel strategy targeting BOFU (Bottom of Funnel) and MOFU (Middle of Funnel) keywords to capture high-intent buyers.",
+        "CRO Implementation: Used Microsoft Clarity heatmaps to analyze user behavior, optimizing exit popups and CTA placements.",
+        "Technical: Solved critical CMS issues and optimized landing pages for speed and user experience."
+      ],
+      "result": "650% Traffic Growth (Scaled from 2K to 15K+ monthly) and 3X increase in organic leads within 12 months."
     },
     {
+      "slug": "enterprise-saas-technical-optimization",
+      "title": "Enterprise SaaS Technical Optimization",
+      "client": "Appy Pie LLP",
+      "role": "Sr. SEO Executive",
       "image": "/images/work/work-img-2.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "challenge": "A large-scale platform facing challenges with crawlability, indexing efficiency, and content gaps in a competitive SaaS market.",
+      "solution": [
+        "Deep Auditing: Conducted technical audits using Semrush and Screaming Frog to identify and fix \"crawl bloat\" and indexing errors.",
+        "On-Page Overhaul: Optimized meta tags, URL structures, and internal linking to distribute link equity more effectively.",
+        "Content Operations: Collaborated with editorial teams to align the content calendar with actual search intent."
+      ],
+      "result": "Improved crawl efficiency and search rankings for high-value commercial keywords, driving consistent organic acquisition."
     },
     {
+      "slug": "international-seo-expansion",
+      "title": "International SEO & Expansion",
+      "client": "OpenDG Clients",
+      "role": "Digital Marketing Executive",
       "image": "/images/work/work-img-3.jpg",
-      "title": "Fashion Website Template",
-      "client": "John Honnai",
-      "slug": "fashion-website-template"
+      "challenge": "Clients needed to expand their organic presence beyond local markets to reach international audiences.",
+      "solution": [
+        "Global Architecture: Implemented International SEO strategies, optimizing subdirectories and subfolders for specific geo-targeting.",
+        "Off-Page Strategy: Executed a robust link-building campaign involving guest blogging and infographic submissions to build domain authority.",
+        "Performance Tracking: Monitored cross-border KPIs (bounce rates, queries) to refine targeting daily."
+      ],
+      "result": "Successfully established organic visibility in target international regions and increased qualified lead generation."
     },
     {
+      "slug": "architecture-dev-side-seo",
+      "title": "Architecture & Dev-Side SEO",
+      "client": "Taazaa Tech",
+      "role": "Sr. SEO Executive",
       "image": "/images/work/work-img-4.jpg",
-      "title": "Book Cover Design",
-      "client": "John Honnai",
-      "slug": "book-cover-design"
-    },
-    {
-      "image": "/images/work/work-img-5.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
-    },
-    {
-      "image": "/images/work/work-img-6.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "challenge": "The website required structural updates to align with Google’s evolving algorithms and ensure new code deployments didn't hurt rankings.",
+      "solution": [
+        "Dev Collaboration: Partnered directly with development teams to integrate SEO best practices into the code deployment pipeline.",
+        "Structural Refinement: Refined URL structures and site architecture to clarify topical relevance for Google bots.",
+        "Intent Mapping: Conducted keyword research to realign existing content with current user search intent."
+      ],
+      "result": "Enhanced site health, better alignment with Core Web Vitals, and protection of rankings during code updates."
     }
   ]
 }

@@ -79,7 +79,7 @@ const LatestWork = () => {
                     </div>
                     <div className="flex flex-col gap-0 xl:gap-2">
                       <div className="flex items-center justify-between">
-                        <Link href={`${value.slug}`}>
+                        <Link href={`/case-studies/${value.slug}`}>
                           <h5>{value?.title}</h5>
                         </Link>
                         <Image
