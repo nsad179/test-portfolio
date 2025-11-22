@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://neerajkumarseo.netlify.app/"
+  to = "https://www.neerajkumarseo.com"
+  status = 301
+  force = true
