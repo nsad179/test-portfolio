@@ -1,12 +1,13 @@
-import AboutMe from "./components/home/about-me"
-import Contact from "./components/home/contact"
-import EducationSkills from "./components/home/education-skills"
-import ExperienceSec from "./components/home/experience-sec"
 import HeroSection from "./components/home/hero-section"
 import ContactBar from "./components/home/hero-section/contact-bar"
-import LatestWork from "./components/home/latest-work"
+import dynamic from "next/dynamic"
 
-import BookingSection from "./components/home/booking-section"
+const AboutMe = dynamic(() => import("./components/home/about-me"))
+const Contact = dynamic(() => import("./components/home/contact"))
+const EducationSkills = dynamic(() => import("./components/home/education-skills"))
+const ExperienceSec = dynamic(() => import("./components/home/experience-sec"))
+const LatestWork = dynamic(() => import("./components/home/latest-work"))
+const BookingSection = dynamic(() => import("./components/home/booking-section"))
 
 const page = () => {
   return (
