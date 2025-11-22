@@ -6,6 +6,8 @@ import HeroSection from "./components/home/hero-section"
 import ContactBar from "./components/home/hero-section/contact-bar"
 import LatestWork from "./components/home/latest-work"
 
+import BookingSection from "./components/home/booking-section"
+
 const page = () => {
   return (
     <>
@@ -16,6 +18,7 @@ const page = () => {
         <ExperienceSec />
         <EducationSkills />
         <LatestWork />
+        <BookingSection />
         <Contact />
       </main>
     </>
