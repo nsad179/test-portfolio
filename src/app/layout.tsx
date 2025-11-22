@@ -7,6 +7,7 @@ import Footer from "./components/layout/footer";
 const bricolageGrotesque = Bricolage_Grotesque({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
