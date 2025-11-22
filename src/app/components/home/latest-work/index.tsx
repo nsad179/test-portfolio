@@ -38,13 +38,12 @@ const LatestWork = () => {
                     key={index}
                     className="group flex flex-col gap-3 xl:gap-6"
                   >
-                    <div className="relative">
+                    <div className="relative w-full aspect-[4/3] overflow-hidden rounded-lg">
                       <Image
                         src={getImgPath(value?.image)}
                         alt="image"
-                        width={570}
-                        height={414}
-                        className="rounded-lg w-full h-full object-cover"
+                        fill
+                        className="object-cover"
                       />
                       <Link
                         href={`/case-studies/${value.slug}`}
